@@ -93,14 +93,12 @@ header{
 }
 .plus_sign{
     display: none;
-
 }
 
 #portfolio div.col-12.col-md-6.col-lg-4.text-center:hover{
 position: relative;
 }
 #portfolio div.col-12.col-md-6.col-lg-4.text-center:hover .plus_sign{
-    
     position: absolute;
     display: flex;
     align-items: center;
