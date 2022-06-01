@@ -1,0 +1,117 @@
+/* img{
+    max-width: 250px;
+} */
+
+/* [class*="col-"] {
+    background-color: blue;
+} */
+
+section:first-child img{
+    width: 250px;
+}
+
+main section:nth-child(odd) {
+    background: #19BC9C;
+    color: white;
+}
+main section:nth-child(even) {
+    color: black;
+}
+
+footer section{
+    color: white;
+}
+footer section:first-child{
+    background-color: #3B546D;
+}
+
+footer section:last-child{
+    background-color: #2C3E50;
+
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.star:before,
+.star:after{
+    content: " ";
+    display: inline-block;
+    width: 20%;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+main section:nth-child(even) {
+    color: black;
+}
+
+.rounded-circle-for-icons{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main section:nth-child(even) .star:before,
+main section:nth-child(even) .star:after{
+    color: black;
+    background-color: black;
+}
+
+header{
+    background-color: #303D4E;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active
+
+{
+    color: white;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active:hover
+{
+    color: black;
+}
+
+.border_0{
+    border: none;
+}
+.plus_sign{
+    display: none;
+
+}
+
+#portfolio div.col-12.col-md-6.col-lg-4.text-center:hover{
+position: relative;
+}
+#portfolio div.col-12.col-md-6.col-lg-4.text-center:hover .plus_sign{
+    
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+    height: 100%;
+}
+.plus_sign.w-100.rounded i{
+    color: white;
+    font-size: 3rem;
+}
